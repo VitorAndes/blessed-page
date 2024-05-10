@@ -9,7 +9,7 @@ interface CardProductsProps extends DataProductsProps {
 
 export function CardProducts(Products: CardProductsProps) {
   return (
-    <div className={`col-span-${Products.colSpan} shadow-lg shadow-color-primary hover:shadow-color-secondary hover:scale-105 transition-all w-full h-full rounded-md relative`}>
+    <div className={`col-span-${Products.colSpan} shadow-lg shadow-slate-800 hover:shadow-sky-300 hover:scale-105 transition-all w-full h-full rounded-md relative`}>
       <Image
         src={Products.src}
         alt={Products.alt}
