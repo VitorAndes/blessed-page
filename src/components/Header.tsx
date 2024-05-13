@@ -7,19 +7,19 @@ export function Header() {
       <nav className="flex justify-center gap-8 py-2 w-full bg-slate-300">
         <Link
           href=""
-          className="hover:text-white transition-all text-xl"
+          className="hover:text-white transition-all text-2xl"
         >
           Sobre
         </Link>
         <Link
           href="#Products"
-          className="hover:text-white transition-all text-xl"
+          className="hover:text-white transition-all text-2xl"
         >
           Produtos
         </Link>
         <Link
           href="#Services"
-          className="hover:text-white transition-all text-xl"
+          className="hover:text-white transition-all text-2xl"
         >
           Serviços
         </Link>

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <section className="max-w-[1400px] flex flex-col m-auto mb-10 items-center space-y-20">
+      <section className="max-w-[1400px] flex flex-col m-auto mb-10 items-center">
         <About />
         <Products />
         <Services />

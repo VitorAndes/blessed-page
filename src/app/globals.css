@@ -33,6 +33,9 @@
       --ring: 222.2 84% 4.9%;
 
       --radius: 0.5rem;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
     .dark {
@@ -68,6 +71,7 @@
 
   body{
     background: rgb(224 242 254);
+    
   }
 
   @layer base {
