@@ -13,10 +13,10 @@ export function CardServices(Services: CardServicesProps) {
           src={Services.src}
           alt={Services.alt}
           fill
-          className="rounded-lg h-64"
+          className="rounded-lg"
         />
       </div>
-      <h2 className="lg:text-3xl">{Services.title}</h2>
+      <h2 className="lg:text-3xl font-mono">{Services.title}</h2>
     </div>
   );
 }

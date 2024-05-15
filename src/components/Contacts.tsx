@@ -4,12 +4,12 @@ import { Instagram, Mail, MessageCircle } from "lucide-react";
 export function Contacts() {
   return (
     <>
-      <div className="text-left space-y-8">
-        <h1 className="font-semibold text-sky-100 text-2xl">
+      <div className="flex flex-col text-center space-y-8">
+        <h1 className="font-mono text-sky-100 text-2xl">
           Entre em contato com a gente!
         </h1>
         <Button
-          className="flex items-center p-6 gap-2 hover:text-green-500 rounded-lg"
+          className="flex items-center p-6 gap-2 hover:text-green-500 rounded-lg font-mono"
           variant="outline"
         >
           <MessageCircle />
@@ -24,7 +24,7 @@ export function Contacts() {
       <div className="flex">
         <Button
           variant="link"
-          className="hover:text-red-600 transition-colors flex items-center text-sky-100 gap-2"
+          className="hover:text-red-600 transition-colors flex items-center text-sky-100 gap-2 font-mono"
         >
           <Mail />
           <a href="mailto:" target="_blank">
@@ -34,7 +34,7 @@ export function Contacts() {
 
         <Button
           variant="link"
-          className="hover:text-pink-500 transition-colors flex items-center text-sky-100 gap-2"
+          className="hover:text-pink-500 transition-colors flex items-center text-sky-100 gap-2 font-mono"
         >
           <Instagram />
           <a href="https://www.instagram.com/blessedfm22/" target="_blank">

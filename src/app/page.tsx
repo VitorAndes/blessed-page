@@ -13,7 +13,7 @@ export default function Home() {
         <Products />
         <Services />
       </section>
-      <footer className="bg-slate-800 p-4 space-y-8">
+      <footer className="bg-slate-800 p-4 space-y-8 flex flex-col items-center">
         <Contacts />
       </footer>
     </div>
